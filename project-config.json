@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2VUFxkqzwxwMsbh.root:vbvqUO7FN1w59tU81UKY@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/axYyVA3UXsBURBNsjVYbH6?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://2VUFxkqzwxwMsbh.root:vbvqUO7FN1w59tU81UKY@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/axYyVA3UXsBURBNsjVYbH6?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "axYyVA3UXsBURBNsjVYbH6"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/axyyva3uxsburbnsjvybh6.git",
+    "expiration": "2026-09-05T20:05:01.469Z",
+    "token": "art_v2_x_57c79003232d63948d2e7aa8f35295c4d17c2119?expires=1788638701",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "cloud-cost-sentinel",
+  "path": "/home/ubuntu/cloud-cost-sentinel",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "HaErEBikXSpUKmuxBocAWB",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "CG7m6QxViLfExHnkFpHwYp",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "V V R Sameeran",
+    "OWNER_OPEN_ID": "LNX4jDQmd7ze2XQNvBiNuz",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "b10ba03a-ebf1-4f97-97ac-e42577a8b3d3",
+    "VITE_APP_ID": "axYyVA3UXsBURBNsjVYbH6",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663941442488/ryqGQgPexsYPSMaM.png",
+    "VITE_APP_TITLE": "Cloud Cost Sentinel",
+    "VITE_FRONTEND_FORGE_API_KEY": "dog9zrwHL7WE7x5cMkrT6M",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
